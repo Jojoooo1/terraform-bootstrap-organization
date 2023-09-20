@@ -16,18 +16,18 @@ locals {
     "iam.disableServiceAccountKeyCreation",
     "iam.disableServiceAccountKeyUpload",
 
-    // VM policies
+    // VM policies:
     "compute.disableNestedVirtualization",
     "compute.disableSerialPortAccess",
     "compute.disableGuestAttributesAccess",
 
-    // Network policies
+    // Network policies:
     "compute.skipDefaultNetworkCreation",
     "compute.restrictXpnProjectLienRemoval",
     "compute.disableVpcExternalIpv6",
     "compute.setNewProjectDefaultToZonalDNSOnly",
 
-    // SQL network policies
+    // SQL network policies:
     "sql.restrictPublicIp",
     "sql.restrictAuthorizedNetworks",
   ])
