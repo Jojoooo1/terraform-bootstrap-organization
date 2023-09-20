@@ -1,4 +1,4 @@
-# Terraform cloud-diplomate boostrap organization - folders and policies
+# Cloud-diplomate boostrap organization - folders and policies
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
