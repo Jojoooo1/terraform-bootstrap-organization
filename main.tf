@@ -1,4 +1,4 @@
-# Based on https://cloud.google.com/architecture/security-foundations/using-example-terraform#organization-policy-setup
+# Inspired on https://cloud.google.com/architecture/security-foundations/using-example-terraform#organization-policy-setup
 
 locals {
 
