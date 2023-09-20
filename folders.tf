@@ -5,7 +5,7 @@ resource "google_folder" "dev" {
   display_name = "development"
   parent       = local.organization_folder_id
 }
-resource "google_folder" "dev_host" {
+resource "google_folder" "dev_shared" {
   display_name = "shared"
   parent       = google_folder.dev.name
 }
@@ -21,7 +21,7 @@ resource "google_folder" "production" {
   display_name = "production"
   parent       = local.organization_folder_id
 }
-resource "google_folder" "production_host" {
+resource "google_folder" "production_shared" {
   display_name = "shared"
   parent       = google_folder.production.name
 }

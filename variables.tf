@@ -7,4 +7,3 @@ variable "domain" {
   description = "Domains to allow for IAM policy"
   type        = string
 }
-
