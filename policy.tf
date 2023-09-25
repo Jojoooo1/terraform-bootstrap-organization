@@ -22,6 +22,8 @@ module "public_access_prevention" {
 
   # Can only be configurated after the public folder has been created
   exclude_folders = [google_folder.public.id]
+
+  depends_on = [google_folder.public]
 }
 
 /******************************************
