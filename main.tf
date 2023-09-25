@@ -3,7 +3,7 @@
 locals {
 
   policy_for                = "organization"
-  organization_folder_id    = "organizations/${var.organization_id}"
+  organization_folder_id    = "organizations/${var.org_id}"
   domain_restricted_contact = "@${var.domain}"
 
   boolean_type_organization_policies = toset([
