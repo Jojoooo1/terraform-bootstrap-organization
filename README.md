@@ -1,4 +1,4 @@
-# Cloud-diplomate boostrap organization - folders and policies
+# Boostrap organization - folders and policies
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
